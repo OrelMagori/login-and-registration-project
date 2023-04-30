@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #cccccc;
+  height: 900px;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+ }
+
+#header {
+  margin-top: 50px;
+  margin-left: 20px;
+  display: inline;
+}
+
+#emptyZone {
+  height: 0px;
+}
+
+#inputItem {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#logoutButton{
+  margin-left:63%;
+
+}
