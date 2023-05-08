@@ -10,10 +10,10 @@ export const Register = (props) => {
 
   const { apiCall } = useApiContext();
 
-  const [email_validation, setEmail_validation] = useState(true);
-  const [password_validation, setPassword_validation] = useState(true);
-  const [name_validation, setName_validation] = useState(true);
-  const [ID_validation, setID_validation] = useState(true);
+  const [, setEmail_validation] = useState(true);
+  const [, setPassword_validation] = useState(true);
+  const [, setName_validation] = useState(true);
+  const [, setID_validation] = useState(true);
 
   const nameChangeHandler = (event) => {
     if (event.target.value.trim().length > 0) {

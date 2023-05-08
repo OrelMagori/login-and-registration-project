@@ -7,8 +7,8 @@ import "./Login.css";
 export const Login = (props) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [email_validation, setEmail_validation] = useState(true);
-  const [password_validation, setPassword_validation] = useState(true);
+  const [, setEmail_validation] = useState(true);
+  const [, setPassword_validation] = useState(true);
   const { apiCall } = useApiContext();
   const { dispatch } = useAuthContext();
   const navigate = useNavigate();

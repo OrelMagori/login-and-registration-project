@@ -1,5 +1,4 @@
 import { createContext } from "react";
-import { useAuthContext } from "../hooks/useAuthContext";
 
 export const ApiContext = createContext();
 export const ApiContextProvider = ({ children }) => {
