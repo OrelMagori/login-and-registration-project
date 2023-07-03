@@ -42,11 +42,12 @@ Replace `<your_mongodb_uri>` with the URI of your MongoDB database and `<your_jw
 
 The project structure is as follows:
 
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions, bug fixes, or improvements, please open an issue or a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+├── src
+│ ├── components # React components
+│ ├── pages # Application pages
+│ ├── utils # Utility functions
+│ ├── services # API services for authentication and data retrieval
+│ └── App.js # Main component
+├── public # Static assets
+├── .env # Environment variable configuration
+└── README.md # Project documentation
